@@ -1,0 +1,33 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-GB"
+title = "My New Hugo Site"
+theme = "beautifulhugo"
+
+[Params]
+  subtitle = "Build a beautiful and simple website in minutes"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+
+[Author]
+  name = "Aida Martinez"
+  email = "hello@developinonthego.com"
+  twitter = "aida_41d4ma"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "News"
+    url = "/news"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
