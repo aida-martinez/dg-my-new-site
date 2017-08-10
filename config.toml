@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://dg-my-new-site.netlify.com"
 languageCode = "en-GB"
 title = "My New Hugo Site"
 theme = "beautifulhugo"
